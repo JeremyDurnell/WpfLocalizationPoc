@@ -1,0 +1,11 @@
+﻿<ResourceDictionary 
+  x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+	<!-- String resource that can be localized -->
+	<system:String x:Uid="system:String_1" x:Key="localizedMessageXAML">en-US Message from XAML</system:String>
+	<system:String x:Uid="system:String_2" x:Key="localizedMessageCodeBehind">en-US Message from Code Behind</system:String>
+
+
+</ResourceDictionary>

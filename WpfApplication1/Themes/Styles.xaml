@@ -1,0 +1,9 @@
+﻿<ResourceDictionary x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Style x:Uid="Style_1" x:Key="GridStyle" TargetType="{x:Type Grid}">
+		<Setter x:Uid="BackgroundColor" Property="Background" Value="Black" Localization.Comments="$Value (Background color for all UI panels)" />
+	</Style>
+	<Style x:Uid="Style_2" x:Key="TextBlockStyle" TargetType="{x:Type TextBlock}">
+		<Setter x:Uid="ForegroundColor" Property="Foreground" Value="White" Localization.Comments="$Value (Color of all UI text)" />
+	</Style>    
+</ResourceDictionary>

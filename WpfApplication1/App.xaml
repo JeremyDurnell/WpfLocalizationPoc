@@ -1,0 +1,14 @@
+﻿<Application x:Uid="Application_1" x:Class="WpfApplication1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+		<ResourceDictionary x:Uid="ResourceDictionary_1">
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary x:Uid="ResourceDictionary_2" Source="Themes/Images.xaml" />
+				<ResourceDictionary x:Uid="ResourceDictionary_3" Source="Themes/Strings.xaml" />
+				<ResourceDictionary x:Uid="ResourceDictionary_4" Source="Themes/Styles.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

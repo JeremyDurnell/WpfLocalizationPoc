@@ -1,0 +1,4 @@
+﻿<ResourceDictionary x:Uid="ResourceDictionary_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<BitmapImage x:Uid="BitmapImage_1" x:Key="Gear19x19" UriSource="./Images/WhiteGear19x19.png" />	
+</ResourceDictionary>

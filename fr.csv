@@ -1,0 +1,46 @@
+﻿WpfApplication1.g.en-US.resources:styles.baml,BackgroundColor:System.Windows.Setter.Property,None,False,False,,Panel.Background
+WpfApplication1.g.en-US.resources:styles.baml,BackgroundColor:System.Windows.Setter.Value,None,False,True,,\#FFFFFFFF
+WpfApplication1.g.en-US.resources:styles.baml,ForegroundColor:System.Windows.Setter.Property,None,False,False,,TextElement.Foreground
+WpfApplication1.g.en-US.resources:styles.baml,ForegroundColor:System.Windows.Setter.Value,None,False,True,,\#FF000000
+WpfApplication1.g.en-US.resources:images.baml,BitmapImage_1:System.Windows.Media.Imaging.BitmapImage.$Content,None,False,True,,
+WpfApplication1.g.en-US.resources:images.baml,BitmapImage_1:System.Windows.Media.Imaging.BitmapImage.UriSource,None,True,True,,./Images/BlackGear19x19.png
+WpfApplication1.g.en-US.resources:mainwindow.baml,Window_1:WpfApplication1.MainWindow.$Content,None,True,True,,#Grid_1;
+WpfApplication1.g.en-US.resources:mainwindow.baml,Window_1:System.Windows.Window.Language,None,True,True,,fr
+WpfApplication1.g.en-US.resources:mainwindow.baml,Window_1:System.Windows.Window.Title,Title,True,True,,MainWindow (fr)
+WpfApplication1.g.en-US.resources:mainwindow.baml,Window_1:System.Windows.FrameworkElement.Height,None,False,True,,350
+WpfApplication1.g.en-US.resources:mainwindow.baml,Window_1:System.Windows.FrameworkElement.Width,None,False,True,,525
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_2:System.Windows.Controls.StackPanel.Orientation,None,False,True,,Horizontal
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_2:System.Windows.FrameworkElement.VerticalAlignment,None,False,True,,Top
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_1:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_1:System.Windows.Controls.TextBlock.Text,Text,True,True,,Image (fr) :   
+WpfApplication1.g.en-US.resources:mainwindow.baml,GearImage:System.Windows.Controls.Image.$Content,None,False,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,GearImage:System.Windows.UIElement.Visibility,None,False,True,,Visible
+WpfApplication1.g.en-US.resources:mainwindow.baml,GearImage:System.Windows.FrameworkElement.Width,None,False,True,,19
+WpfApplication1.g.en-US.resources:mainwindow.baml,GearImage:System.Windows.FrameworkElement.Height,None,False,True,,19
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_3:System.Windows.Controls.StackPanel.Orientation,None,False,True,,Horizontal
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_2:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_2:System.Windows.Controls.TextBlock.Text,Text,True,True,,Resource file (from XAML) (fr) :   
+WpfApplication1.g.en-US.resources:mainwindow.baml,ResourceFileXAML:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_4:System.Windows.Controls.StackPanel.Orientation,None,False,True,,Horizontal
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_3:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_3:System.Windows.Controls.TextBlock.Text,Text,True,True,,Resource file (from code behind) (fr) :   
+WpfApplication1.g.en-US.resources:mainwindow.baml,ResourceFileCodeBehind:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_5:System.Windows.Controls.StackPanel.Orientation,None,False,True,,Horizontal
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_4:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_4:System.Windows.Controls.TextBlock.Text,Text,True,True,,Embedded text (fr) :   
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_5:System.Windows.Controls.TextBlock.$Content,Text,True,True,String embedded in XAML,Text embedded in XAML (fr)
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_6:System.Windows.Controls.StackPanel.Orientation,None,False,True,,Horizontal
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_6:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_6:System.Windows.Controls.TextBlock.Text,Text,True,True,,Embedded text w/ comma (fr) :   
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_7:System.Windows.Controls.TextBlock.$Content,Text,True,True,String embedded in XAML containing comma,"Text embedded in XAML, with a comma (fr)"
+WpfApplication1.g.en-US.resources:mainwindow.baml,StackPanel_7:System.Windows.Controls.StackPanel.Orientation,None,False,True,,Horizontal
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_8:System.Windows.Controls.TextBlock.$Content,Text,True,True,,
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_8:System.Windows.Controls.TextBlock.Text,Text,True,True,,Embedded text w/ line break (fr) :   
+WpfApplication1.g.en-US.resources:mainwindow.baml,TextBlock_9:System.Windows.Controls.TextBlock.$Content,Text,True,True,String embedded in XAML containing line break,"Text embedded in XAML
+with a line break (fr)"
+WpfApplication1.g.en-US.resources:strings.baml,system:String_1:System.String.$Content,None,True,True,,fr Message from XAML
+WpfApplication1.g.en-US.resources:strings.baml,system:String_2:System.String.$Content,None,True,True,,fr Message from Code Behind
+WpfApplication1.g.en-US.resources:app.baml,Application_1:WpfApplication1.App.$Content,None,True,True,,
+WpfApplication1.g.en-US.resources:app.baml,ResourceDictionary_2:System.Windows.ResourceDictionary.Source,None,True,False,,Themes/Images.xaml
+WpfApplication1.g.en-US.resources:app.baml,ResourceDictionary_3:System.Windows.ResourceDictionary.Source,None,True,False,,Themes/Strings.xaml
+WpfApplication1.g.en-US.resources:app.baml,ResourceDictionary_4:System.Windows.ResourceDictionary.Source,None,True,False,,Themes/Styles.xaml
