@@ -1,35 +1,58 @@
 ﻿<Window x:Uid="Window_1" x:Class="WpfApplication1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525" xml:lang="en-US">
-	<Grid x:Uid="Grid_1" Style="{StaticResource GridStyle}">
+        Title="MainWindow" SizeToContent="WidthAndHeight" xml:lang="en-US" Style="{StaticResource WindowStyle}">
+	<Grid x:Uid="Grid_1" Margin="10">
 		<StackPanel x:Uid="StackPanel_1">
-			<ComboBox x:Uid="ComboBox_1" SelectedValue="{Binding SelectedLocale}" ItemsSource="{Binding SupportedLocales}" ></ComboBox>
+            <StackPanel x:Uid="StackPanel_13" Orientation="Horizontal">
+                <TextBlock x:Uid="TextBlock_15" Style="{StaticResource LabelTextBlockStyle}" Text="Locale :   "></TextBlock>
+                <ComboBox x:Uid="ComboBox_1" SelectedValue="{Binding SelectedLocale}" ItemsSource="{Binding SupportedLocales}" VerticalAlignment="Center" ></ComboBox>
+            </StackPanel>
 			<StackPanel x:Uid="StackPanel_2" Orientation="Horizontal" VerticalAlignment="Top">
-				<TextBlock x:Uid="TextBlock_1" Style="{StaticResource TextBlockStyle}" Text="Image :   "></TextBlock>
+                <TextBlock x:Uid="TextBlock_1" Style="{StaticResource LabelTextBlockStyle}" Text="Image :   "></TextBlock>
 				<Image x:Uid="GearImage" Source="{StaticResource Gear19x19}" Visibility="Visible" Width="19" Height="19"></Image>
 			</StackPanel>
 			<StackPanel x:Uid="StackPanel_3" Orientation="Horizontal">
-				<TextBlock x:Uid="TextBlock_2" Style="{StaticResource TextBlockStyle}" Text="Resource file (from XAML) :   "></TextBlock>
+                <TextBlock x:Uid="TextBlock_2" Style="{StaticResource LabelTextBlockStyle}" Text="Resource file (from XAML) :   "></TextBlock>
 				<TextBlock x:Uid="ResourceFileXAML" x:Name="ResourceFileXAML" Style="{StaticResource TextBlockStyle}" Text="{StaticResource localizedMessageXAML}" Localization.Comments="$Text (String contained in resource file and referenced via XAML)" ></TextBlock>
 			</StackPanel>
 			<StackPanel x:Uid="StackPanel_4" Orientation="Horizontal">
-				<TextBlock x:Uid="TextBlock_3" Style="{StaticResource TextBlockStyle}" Text="Resource file (from code behind) :   "></TextBlock>
+                <TextBlock x:Uid="TextBlock_3" Style="{StaticResource LabelTextBlockStyle}" Text="Resource file (from code behind) :   "></TextBlock>
 				<TextBlock x:Uid="ResourceFileCodeBehind" x:Name="ResourceFileCodeBehind" Style="{StaticResource TextBlockStyle}" Localization.Comments="$Text (String contained in resource file and referenced via Code Behind)" />
 			</StackPanel>
 			<StackPanel x:Uid="StackPanel_5" Orientation="Horizontal">
-				<TextBlock x:Uid="TextBlock_4" Style="{StaticResource TextBlockStyle}" Text="Embedded text :   "></TextBlock>
+                <TextBlock x:Uid="TextBlock_4" Style="{StaticResource LabelTextBlockStyle}" Text="Embedded text :   "></TextBlock>
 				<TextBlock x:Uid="TextBlock_5" Style="{StaticResource TextBlockStyle}" Localization.Comments="$Content (String embedded in XAML)">Text embedded in XAML</TextBlock>
 			</StackPanel>
 			<StackPanel x:Uid="StackPanel_6" Orientation="Horizontal">
-				<TextBlock x:Uid="TextBlock_6" Style="{StaticResource TextBlockStyle}" Text="Embedded text w/ comma :   "></TextBlock>
+                <TextBlock x:Uid="TextBlock_6" Style="{StaticResource LabelTextBlockStyle}" Text="Embedded text w/ comma :   "></TextBlock>
 				<TextBlock x:Uid="TextBlock_7" Style="{StaticResource TextBlockStyle}" Localization.Comments="$Content (String embedded in XAML containing comma)">Text embedded in XAML, with a comma</TextBlock>
 			</StackPanel>
 			<StackPanel x:Uid="StackPanel_7" Orientation="Horizontal">
-				<TextBlock x:Uid="TextBlock_8" Style="{StaticResource TextBlockStyle}" Text="Embedded text w/ line break :   "></TextBlock>
+                <TextBlock x:Uid="TextBlock_8" Style="{StaticResource LabelTextBlockStyle}" Text="Embedded text w/ line break :   "></TextBlock>
 				<TextBlock xml:space="preserve" x:Uid="TextBlock_9" Style="{StaticResource TextBlockStyle}" Localization.Comments="$Content (String embedded in XAML containing line break)">Text embedded in XAML
 with a line break</TextBlock>
 			</StackPanel>
-		</StackPanel>
+            <StackPanel x:Uid="StackPanel_8" Orientation="Horizontal">
+                <TextBlock x:Uid="TextBlock_10" Style="{StaticResource LabelTextBlockStyle}" Text="Full date/time pattern - long time (F) :   "></TextBlock>
+                <TextBlock x:Uid="DateTimeSampleF" x:Name="DateTimeSampleF" Style="{StaticResource TextBlockStyle}" Text="{Binding Now,StringFormat={}{0:F}}" />
+            </StackPanel>
+            <StackPanel x:Uid="StackPanel_9" Orientation="Horizontal">
+                <TextBlock x:Uid="TextBlock_11" Style="{StaticResource LabelTextBlockStyle}" Text="General date/time pattern - long time (G) :   "></TextBlock>
+                <TextBlock x:Uid="DateTimeSampleG" x:Name="DateTimeSampleG" Style="{StaticResource TextBlockStyle}" Text="{Binding Now,StringFormat={}{0:G}}" />
+            </StackPanel>
+            <StackPanel x:Uid="StackPanel_10" Orientation="Horizontal">
+                <TextBlock x:Uid="TextBlock_12" Style="{StaticResource LabelTextBlockStyle}" Text="Currency (C) :   "></TextBlock>
+                <TextBlock x:Uid="CurrencyC" x:Name="CurrencyC" Style="{StaticResource TextBlockStyle}" Text="{Binding Money,StringFormat={}{0:C}}" />
+            </StackPanel>
+            <StackPanel x:Uid="StackPanel_11" Orientation="Horizontal">
+                <TextBlock x:Uid="TextBlock_13" Style="{StaticResource LabelTextBlockStyle}" Text="Fixed Point (F) :   "></TextBlock>
+                <TextBlock x:Uid="FixedPointF" x:Name="FixedPointF" Style="{StaticResource TextBlockStyle}" Text="{Binding Money,StringFormat={}{0:F}}" />
+            </StackPanel>
+            <StackPanel x:Uid="StackPanel_12" Orientation="Horizontal">
+                <TextBlock x:Uid="TextBlock_14" Style="{StaticResource LabelTextBlockStyle}" Text="General (G) :   "></TextBlock>
+                <TextBlock x:Uid="GeneralG" x:Name="GeneralG" Style="{StaticResource TextBlockStyle}" Text="{Binding Money,StringFormat={}{0:G}}" />
+            </StackPanel>
+        </StackPanel>
 	</Grid>
 </Window>

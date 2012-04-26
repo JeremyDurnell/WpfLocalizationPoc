@@ -4,5 +4,6 @@ GenerateFR.bat - generates fr language resources
 Cleanup.bat - cleans up after the build, keeping only the files necessary to run the application
 CleanupAll.bat - deletes the bin and obj folders effectively cleaning up all binaries that may be laying around
 
-http://msdn.microsoft.com/en-us/library/ms788718.aspx
-http://msdn.microsoft.com/en-us/library/ms746621.aspx
+http://msdn.microsoft.com/en-us/library/ms788718.aspx - WPF Globalization and Localization Overview
+http://msdn.microsoft.com/en-us/library/ms746621.aspx - How to: Localize [a WPF] Application
+http://msdn.microsoft.com/en-us/library/az4se3k1.aspx - Standard Date and Time Format Strings

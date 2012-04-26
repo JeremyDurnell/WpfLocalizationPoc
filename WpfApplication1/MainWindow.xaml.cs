@@ -26,6 +26,8 @@ namespace WpfApplication1
 			ResourceFileCodeBehind.Text = (string) Application.Current.FindResource("localizedMessageCodeBehind");
 
 			DataContext = new MainWindowViewModel();
+
+            
 		}
 	}
 }

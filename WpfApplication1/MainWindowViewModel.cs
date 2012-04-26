@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows;
 using WpfApplication1.Properties;
@@ -33,5 +34,12 @@ namespace WpfApplication1
 				}
 			}
 		}
+
+	    public DateTime Now
+	    {
+	        get { return DateTime.Now; }
+	    }
+
+        public decimal Money { get { return 1000000m; } }
 	}
 }
