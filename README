@@ -1,0 +1,8 @@
+UpdateUIDs.bat - updates all UIDs in XAML files and checks for duplicates; this is a pre-compile step
+i18n.bat - builds project and creates folder for neutral language (en-US)
+GenerateFR.bat - generates fr language resources
+Cleanup.bat - cleans up after the build, keeping only the files necessary to run the application
+CleanupAll.bat - deletes the bin and obj folders effectively cleaning up all binaries that may be laying around
+
+http://msdn.microsoft.com/en-us/library/ms788718.aspx
+http://msdn.microsoft.com/en-us/library/ms746621.aspx
