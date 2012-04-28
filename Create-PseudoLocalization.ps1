@@ -26,7 +26,7 @@ WPF Globalization and Localization Overview: http://msdn.microsoft.com/en-us/lib
 LocBaml source direct download: http://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=wpfsamples&DownloadId=9333
 
 .LINK
-For an example project using this scritp: http://github.com/JeremyDurnell/WpfLocalizationPoc
+For an example project using this script: http://github.com/JeremyDurnell/WpfLocalizationPoc
 
 .EXAMPLE
 .\Create-PseudoLocalization.ps1 .\en-US.csv .\ar.csv
