@@ -25,12 +25,15 @@ WPF Globalization and Localization Overview: http://msdn.microsoft.com/en-us/lib
 .LINK
 LocBaml source direct download: http://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=wpfsamples&DownloadId=9333
 
+.LINK
+For an example project using this scritp: http://github.com/JeremyDurnell/WpfLocalizationPoc
+
 .EXAMPLE
 .\Create-PseudoLocalization.ps1 .\en-US.csv .\ar.csv
 
 #>
 
-param ([string]$inLocation,[string]$outLocation)
+param ([Parameter(Mandatory=$TRUE)][string]$inLocation,[Parameter(Mandatory=$TRUE)][string]$outLocation)
 
 function Get-ScriptDirectory
 {
