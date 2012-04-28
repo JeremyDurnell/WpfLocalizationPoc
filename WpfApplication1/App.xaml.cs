@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Globalization;
-using System.Linq;
+﻿using System.Globalization;
 using System.Threading;
 using System.Windows;
+using System.Windows.Markup;
 
 namespace WpfApplication1
 {
@@ -22,5 +18,15 @@ namespace WpfApplication1
 			Thread.CurrentThread.CurrentCulture = ci;
 			Thread.CurrentThread.CurrentUICulture = ci;
 		}
+
+	    protected override void OnStartup(StartupEventArgs e)
+	    {
+	        FrameworkElement.LanguageProperty.OverrideMetadata(
+	            typeof (FrameworkElement),
+	            new FrameworkPropertyMetadata(
+	                XmlLanguage.GetLanguage(CultureInfo.CurrentCulture.IetfLanguageTag)));
+
+	        base.OnStartup(e);
+	    }
 	}
 }

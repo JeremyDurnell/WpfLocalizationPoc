@@ -41,6 +41,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -105,8 +106,8 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Resource Include="Themes\Images\WhiteGear19x19.png">
-		<Localizable>False</Localizable>
-	</Resource>
+      <Localizable>False</Localizable>
+    </Resource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -117,8 +118,8 @@
   <ItemGroup />
   <ItemGroup>
     <Resource Include="Themes\Images\BlackGear19x19.png">
-		<Localizable>False</Localizable>
-	</Resource>
+      <Localizable>False</Localizable>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
